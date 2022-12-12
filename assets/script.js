@@ -5,8 +5,8 @@ startButtonEl.addEventListener("click", startTimer)
 
 var countDownTimer;
 var timerInterval;
-var index;
 
+// timer starts from 60
 function startTimer(event) {
   startButtonEl.disabled = true;
   countdown = 60;
