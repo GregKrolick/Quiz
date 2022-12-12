@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: lightcyan;
+}
+header {
+  background-color: blue;
+  color: red;
+  display: flex;
+  flex-direction: column;;
+}
+
+#start {
+  background-color: #93ac93;
+  color: green;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 142px;
+  border-radius: 15px;
+  border-style: solid;
+}
